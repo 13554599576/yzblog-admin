@@ -1,0 +1,46 @@
+/* 背景 */
+.login-background {
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, #8E2DE2, #4A00E0);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 表单 */
+.login-background .login-form {
+	width: 30vw;
+	height: 80vh;
+
+	background-color: white;
+	border-radius: 1rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 表单的文件 */
+.login-background .login-form p {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+/* 表单输入框 */
+.login-background .login-form input {
+	width: 20vw;
+	height: 7vh;
+	margin-top: 2rem;
+}
+
+/* 表单登录注册按钮 */
+.login-background .login-form .login-form-button {
+	width: 10vw;
+
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+}

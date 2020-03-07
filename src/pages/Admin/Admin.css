@@ -1,0 +1,11 @@
+.ant-layout-sider-children .logo {
+	height: 12vh;
+	background-image: url("../../static/img/logo.png");
+	background-size: 100% 100%;
+}
+
+.site-layout .site-layout-background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
