@@ -72,6 +72,14 @@ function UserAddOrUpdate() {
   };
 
   /**
+   * Switch标签改变触发事件
+   * @param {*} value
+   */
+  const handleSwitchChange = value => {
+    setUserAllow(value ? 1 : 0);
+  };
+
+  /**
    * 提交数据
    */
   const handleSubmit = async () => {
@@ -118,14 +126,6 @@ function UserAddOrUpdate() {
       const result = await reqUpdateUserById(user);
       result.success ? message.success(result.msg) : message.error(result.msg);
     }
-  };
-
-  /**
-   * Switch标签改变触发事件
-   * @param {*} value
-   */
-  const handleSwitchChange = value => {
-    setUserAllow(value ? 1 : 0);
   };
 
   /**
