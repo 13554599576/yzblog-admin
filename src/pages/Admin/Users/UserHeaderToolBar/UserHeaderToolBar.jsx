@@ -1,5 +1,4 @@
 import React from "react";
-import "./UserHeaderToolBar.less";
 import { Input, Button, message } from "antd";
 import PropTypes from "prop-types";
 import { reqGetUsersPage } from "../../../../api/reqUsers";

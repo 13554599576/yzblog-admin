@@ -18,7 +18,7 @@ function HeaderAvatarAndDesc(props) {
     <>
       <Avatar src={props.userToken.userIcon} size="large" />
       <span style={{ color: "white", fontSize: "1.5rem" }}>
-        {props.userToken.userName}
+        {props.userToken.userNickname}
       </span>
       <Button type="link" onClick={cancle}>
         退出
